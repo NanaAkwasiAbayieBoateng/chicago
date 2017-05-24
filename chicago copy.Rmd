@@ -1,0 +1,555 @@
+---
+title: "University of Illinois Survey On Neighborhood Health Analysis"
+author: "Nana Boateng"
+date: '`r Sys.Date()`'
+output: html_document
+---
+
+We load all packages that would be required packages that would be needed for the analysis at this step.
+
+```{r,echo=FALSE}
+#==================================================================
+# Install packages not already installed in a list
+#==================================================================
+
+
+list=c("tidyverse","stringr","forcats","ggmap","rvest","tm","SnowballC","dplyr","calibrate","doParallel",
+       "stringi","ggplot2","maps","httr","rsdmx","devtools","plyr","dplyr","ggplot2","caret","elasticnet",
+       "magrittr","broom","glmnet","Hmisc",'knitr',"RSQLite","RANN","lubridate","ggvis","plotly","lars",
+       "ggcorrplot","GGally","ROCR","lattice","car","corrgram","ggcorrplot","parallel","readxl","ggmosaic",
+       "vcd","Amelia","d3heatmap","DT","ResourceSelection","ROCR","plotROC")
+
+
+
+list_packages <- list
+new.packages <- list_packages[!(list_packages %in% installed.packages()[,"Package"])]
+if(length(new.packages)) install.packages(new.packages)
+
+R<-suppressWarnings(suppressMessages(sapply(list, require, character.only = TRUE)))
+```
+
+
+
+```{r,echo=FALSE}
+#==================================================================
+#display all coumns of data with dplyr
+# Print first 1000 rows of dataset
+#==================================================================
+
+options(dplyr.width = Inf)
+
+options(dplyr.print_max = 1000)
+
+
+```
+
+
+We read in the dataset at this stage.The data has 454 rows and 17 columns. We rename the columns with shorther names for easy 
+data manipulation and model building.
+
+```{r,echo=FALSE}
+#data=read_csv("C:/Users/Gucci148/Documents/DataMiningscience/UICProject/Workbook1.csv")
+#data<-suppressWarnings(suppressMessages(read_csv("C:/Users/Gucci148/Documents/DataMiningscience/UICProject/Workbook1.csv")))
+
+data<-suppressWarnings(suppressMessages(read_csv("/Users/nanaakwasiabayieboateng/Documents/memphisclassesbooks/DataMiningscience/UICProject/Workbook1.csv")))
+
+
+
+colnames(data)<-c("ID","Gender","Age","Hypertension","Employment","Hispanic","Education","Hispanic_ancestry",
+                  "race_white","race_black","race_Asian","race_pacific","race_Amer_Indian","race_other",
+                  "race_dontknow","race_refused","Asian_ancestry")
+
+
+data=data[-c(1:9),]
+
+data$Age=as.numeric(data$Age)
+
+
+
+
+```
+
+```{r}
+head(data)
+```
+
+
+
+```{r}
+str(data)
+```
+
+
+Among the Age variable reecorded ,there was 10 reported missing observations.
+```{r}
+#==================================================================
+#check the number of missing rows
+#==================================================================
+
+colSums(is.na.data.frame(data))
+```
+
+
+
+The Asian ancestry variable has a ony 20 reported observations. The remainder are all missing.
+```{r}
+data$Asian_ancestry=ifelse(data$Asian_ancestry==".","<NA>",data$Asian_ancestry)
+```
+
+
+
+We deleted rows  for which  there was no coded response applicable.Keeping it in the data increases the number of factors in each column.
+```{r,echo=FALSE}
+#==================================================================
+#NO CODED RESPONSE APPLICABLE (SPECIFY)
+#==================================================================
+
+
+
+ndata=data%>%dplyr::select(-ID)%>%dplyr::filter(Hypertension!="NO CODED RESPONSE APPLICABLE (SPECIFY)",Employment
+                                                  !="NO CODED RESPONSE APPLICABLE (LEAVE NOTE FIRST)"
+                                                  ,Hispanic!="NO CODED RESPONSE APPLICABLE (SPECIFY)",
+                                                  Education!="NO CODED RESPONSE APPLICABLE (SPECIFY)")
+```
+
+
+
+The character columns is converted to factor levels to be used in the model.
+```{r}
+ndata=mutate(ndata,Gender=as.factor(Gender),Age=as.numeric(Age),Hypertension=as.factor(Hypertension),Employment=as.factor(Employment),
+       Hispanic=as.factor(Hispanic),Education=as.factor(Education),Hispanic_ancestry=as.factor(Hispanic_ancestry),
+       race_white=as.factor(race_white),race_black=as.factor(race_black),race_Asian=as.factor(race_Asian),
+       race_pacific=as.factor(race_pacific),race_Amer_Indian=as.factor(race_Amer_Indian),race_other=as.factor(race_other),
+       race_dontknow=as.factor(race_dontknow),race_refused=as.factor(race_refused),Asian_ancestry=as.factor(Asian_ancestry) )
+```
+
+
+
+We explore summary of Hypertension by Age. The median age for those with hypertensive age is 54 whereas the median age for those without hypeertension is 33.
+```{r,echo=FALSE}
+
+#==================================================================
+#Exploratory Data Analysis
+#==================================================================
+
+p=ggplot(ndata, aes(x=Hypertension , y=Age, fill=Hypertension)) + geom_boxplot() +guides(fill=FALSE) +
+  ggtitle("Age vs Hypertension")
+
+ggplotly(p)
+```
+
+The median age for female  hypertensive poulation 55 is higher than that for male 53. The median age for non hypertensive females 37 is also greater than the males which is 32.
+
+```{r}
+p=ggplot(ndata, aes(x = Hypertension, y = Age, fill = Hypertension)) + geom_boxplot() +
+  facet_wrap(~ Gender, ncol = 2)+ggtitle("Age vs Hypertension stratified by Gender")
+ggplotly(p)
+
+```
+
+
+The age for hypertension stratified by  Hispanic race is no different from the rest of the population
+```{r}
+p=ggplot(ndata, aes(x = Hypertension, y = Age, fill = Hypertension)) + geom_boxplot() +
+  facet_wrap(~ Hispanic, ncol = 2)+ggtitle("Age vs Hypertension stratified by Hispanaic Race")
+ggplotly(p)
+```
+
+
+
+
+
+```{r}
+doubledecker(Hypertension ~ race_white + Gender, data=ndata,
+             main="Visualizing Hypertension by Gender and Ethnicity stratified by White race")
+```
+
+
+
+
+
+```{r}
+doubledecker(Hypertension ~ race_black + Gender, data=ndata,
+             main="Visualizing Hypertension by Gender and black Ethnicity")
+```
+
+
+
+Model Building
+```{r}
+#There is no row with a positive response to race pacific. We do not include this variable in the model.
+
+ndata=ndata%>%dplyr::select(-race_pacific )
+
+
+
+index1=sample(1:dim(ndata)[1],replace=F,round(0.7*dim(ndata)[1]))
+
+trainingdata=ndata[index1,]
+
+testdata=ndata[-index1,]
+
+
+
+
+
+fit<-glm(Hypertension~Gender+Age+Employment+Hispanic+Education+Hispanic_ancestry+race_white+race_black+race_Asian+race_Amer_Indian+race_other+race_dontknow+race_refused+Asian_ancestry
+         , family = "binomial",data=trainingdata)
+
+both=step(fit, direction = "both",trace=0 )
+
+
+knitr::kable(tidy(both))
+
+```
+
+
+
+```{r}
+glance(both)
+```
+
+
+The significant predictors are Age,Employment(retired),white race ,black race,other race,,those who don't know their race.For every unit increase in Age,the log odds of getting hypertension increases by 0.054 keeping all other predictors constant.The log odds of having hypertension decreases by 4.7 for a white person compared to a non white person.
+
+
+```{r}
+augment(both)
+```
+
+
+```{r}
+## CIs using profiled log-likelihood
+#fit
+suppressWarnings(knitr::kable(confint(both)))
+```
+
+
+```{r}
+## odds ratios only
+
+(exp(coef(both)))
+```
+
+Now we can say that for a one unit increase in gpa, the odds of being admitted to graduate school (versus not being admitted) increase by a factor of 2.23
+
+```{r}
+## odds ratios and 95% CI
+suppressWarnings(suppressMessages(knitr::kable(exp(cbind(OR = coef(both), confint(both))))))
+
+```
+
+
+
+
+```{r}
+#==================================================================
+#Evaluating Model Fit regression
+#==================================================================
+
+st$anova
+
+
+```
+
+The godness -of-fit of the overall model is obtained by the Hosmer-Lemeshow Test.
+```{r}
+#length(trainSet$Hypertension)
+#length(fitted(both))
+```
+
+```{r}
+#hoslem.test(trainSet$Hypertension, fitted(both), g=10)
+```
+
+
+
+```{r}
+varImp(both)
+```
+
+
+
+```{r}
+#==================================================================
+#Variable Importance Plot
+#==================================================================
+dat=sort(varImp(both)$Overall,decreasing = T)
+importanceOrder=order(-varImp(both)$Overall)
+names=rownames(varImp(both))[importanceOrder]
+names(dat)=names
+
+barplot(dat,las=2,ylab="",xlab="", horiz=TRUE)
+box(lty = '1373', col = 'black')
+```
+```{r}
+#==================================================================
+#Variable Importance Plot
+#==================================================================
+d=data_frame(varImp(both)$Overall)
+row.names(d)
+p <- plot_ly(
+  y = names,
+  x = dat,
+  name = "",
+  type = "bar"
+)
+p %>%
+  layout(title = "Variable Importance Plot",
+         xaxis = list(title = ""),
+         yaxis = list(title = ""))
+
+
+```
+
+
+
+Prediction
+
+```{r}
+
+predict(both, newdata = testSet)
+
+#predict(both, newdata = testSet , type = "link",se = TRUE)
+# Predict using the test data
+
+#newdata3 <- cbind(testSet , predict(both, newdata = testSet , type = "link",
+                                    #se = TRUE))
+# newdata3 <- within(newdata3, {
+#   PredictedProb <- plogis(fit)
+#   LL <- plogis(fit - (1.96 * se.fit))
+#   UL <- plogis(fit + (1.96 * se.fit))
+# })
+
+
+#knitr::kable((newdata3))
+
+#datatable(newdata3)
+```
+
+
+
+
+ This is how our model does on predicting hypertension,For example ,for a person Age 83 and 
+Hypertension=Yes,the model predicts with 92% probability that the person has Hypertension
+```{r}
+p=ggplot(newdata3, aes(x = Age, y = PredictedProb,color=Hypertension))+geom_point()+theme_minimal()
+ggplotly(p)
+
+```
+
+Predicted probablity of hypertension versus observed level of hypertension.
+
+```{r}
+
+predict <- predict(both,testSet, type = 'response')
+hypertesion=if_else(newdata3$Hypertension=="Yes",1,0)
+
+newdata4=newdata3%>%dplyr::mutate(HypertensionN=if_else(Hypertension=="Yes",1,0))
+
+
+p=ggplot(newdata4, aes(x = HypertensionN, y = PredictedProb))+geom_point()+theme_minimal()
+ggplotly(p)
+
+```
+
+
+
+
+```{r}
+p <- ggplot(trainSet, aes(d = Hypertension, m = Age)) + geom_roc()+ style_roc()
+
+```
+
+
+
+
+```{r   int-no, fig.keep='none', results = 'asis'}
+
+# convert tibble data to data frame to overcome errors that result
+#from plot as a result matrix 
+
+plotata=data.frame(trainSet)
+
+p <- ggplot(plotata, aes(d = Hypertension, m = Age)) + geom_roc()+ style_roc()
+
+
+#cat(export_interactive_roc(p,  prefix = "a"))
+
+#plot_interactive_roc(p)
+
+cat(
+  export_interactive_roc(p, 
+                        prefix = "a")
+  )
+
+
+```
+
+
+The prediction accuracy of the model is summarized here.The accuracy of prediction is the rate at which the model correctly
+predicts if a person has hypertension  and correctly predicts if they have not.
+
+```{r}
+##  correct predictions rate for test data
+
+#confusion matrix
+predict <- predict(both,testSet, type = 'response')
+
+pp=if_else(predict >0.5,"Yes","No")
+
+tab=table(testSet$Hypertension, pp)
+
+(tab[1]+tab[4])/sum(tab)
+
+```
+
+```{r}
+#==================================================================
+#confusion matrix
+#==================================================================
+
+confusionMatrix(tab)  
+```
+
+
+The accuracy of prediction of the model on training data.
+```{r}
+##  correct predictions rate for train data
+predict1 <- predict(both,trainSet, type = 'response')
+
+pp=if_else(predict1 >0.5,"Yes","No")
+
+
+tab=table(trainSet$Hypertension, pp)
+
+
+(tab[1]+tab[4])/sum(tab)
+
+```
+
+
+
+
+
+Comparison of Blood Pressure Levels by Race and Ethnicity(National,from the CDC)
+
+```{r}
+
+tab <- as.table(matrix(c(43,45.7,27.8,28.9,33.9,31.3,34.1,32.7),4,2,byrow=T))
+dimnames(tab) <- list(Race = c("African Americans","Mexican Americans","Whites","All"),
+                      Rate  =c("Men(%)","Women(%)") )
+tab
+```
+
+
+Comparison of Blood Pressure Levels by Race and Ethnicity(Chicago)
+```{r}
+tab <- as.table(matrix(c(5.7,15.3,2.1,2.4,3.3,3.5,11.8,23.6),4,2,byrow=T))
+dimnames(tab) <- list(Race = c("African Americans","Mexican Americans","Whites","All"),
+                      Rate  =c("Men(%)","Women(%)") )
+tab
+```
+
+```{r}
+
+
+ndata%>%dplyr::filter(Hypertension=="Yes",race_white=="Yes",Gender=="Female")%>%summarise(count=n())%>%mutate((count/424)*100)%>%mutate((count/424)*100)
+
+
+ndata%>%dplyr::filter(Hypertension=="Yes",race_white=="Yes",Gender=="Male")%>%summarise(count=n())%>%mutate((count/424)*100)%>%mutate((count/424)*100)
+
+
+
+ndata%>%dplyr::filter(Hypertension=="Yes",Hispanic=="Yes",Gender=="Male")%>%summarise(count=n())%>%mutate((count/424)*100)%>%mutate((count/424)*100)
+
+
+ndata%>%dplyr::filter(Hypertension=="Yes",Hispanic=="Yes",Gender=="Female")%>%summarise(count=n())%>%mutate((count/424)*100)%>%mutate((count/424)*100)
+
+
+
+ndata%>%dplyr::filter(Hypertension=="Yes",Gender=="Female")%>%summarise(count=n())%>%mutate((count/424)*100)
+
+ndata%>%dplyr::filter(Hypertension=="Yes",Gender=="Male")%>%summarise(count=n())%>%mutate((count/424)*100)
+
+
+
+ndata%>%dplyr::filter(Hypertension=="Yes",race_white=="No",Gender=="Female")%>%summarise(count=n())%>%mutate((count/424)*100)%>%mutate((count/424)*100)
+
+
+ndata%>%dplyr::filter(Hypertension=="Yes",race_white=="No",Gender=="Male")%>%summarise(count=n())%>%mutate((count/424)*100)%>%mutate((count/424)*100)
+
+
+```
+
+```{r}
+
+```
+
+
+
+```{r}
+Race = c("African Americans","Mexican Americans","Whites","All")
+Male=c(5.7,2.1,3.3,11.8)
+Female=c(15.3,2.4,3.5,23.6)
+data=data_frame(Race,Male,Female)
+p <- plot_ly(data, x = ~Race, y = ~Male, type = 'bar', name = 'Male') %>%
+  add_trace(y = ~Female, name = 'Female') %>%
+  layout(yaxis = list(title = 'Percentage'), barmode = 'group')
+
+p
+```
+
+```{r}
+Race = c("African Americans","Mexican Americans","Whites","All")
+Male=c(6.34,2.1,3.3,11.8)
+Female=c(17.69,2.4,3.5,23.6)
+data=data_frame(Race,Male,Female)
+p <- plot_ly(data, x = ~Race, y = ~Male, type = 'bar', name = 'Male') %>%
+  add_trace(y = ~Female, name = 'Female') %>%
+  layout(yaxis = list(title = 'Count'), barmode = 'group')
+
+p
+```
+
+
+
+
+```{r}
+#==================================================================
+#stacked bar plots
+#==================================================================
+
+
+
+White<- c("Yes","No")
+Male <- c(6.4, 8.3)
+Female<- c(17.69, 20.28)
+data <- data.frame(White, Female, Male)
+
+p <- plot_ly(data, x = ~White, y = ~Female, type = 'bar', name = 'Female') %>%
+  add_trace(y = ~Male, name = 'Male') %>%
+  layout(yaxis = list(title = 'Percentage'), barmode = 'stack')%>%
+  layout(title = "Percentage of Whites with Hypertension",
+         xaxis = list(title = "White"),
+         yaxis = list(title = "Percentage"))
+p
+
+```
+```{r}
+
+White<- c("Yes","No")
+Male <- c(6.4, 8.3)
+Female<- c(17.69, 20.28)
+data <- data.frame(White, Female, Male)
+
+ plot_ly(data, x = ~White, y = ~Female, type = 'bar', name = 'Female') %>%
+  add_trace(y = ~Male, name = 'Male')
+```
+
+
+
+```{r}
+
+```
+

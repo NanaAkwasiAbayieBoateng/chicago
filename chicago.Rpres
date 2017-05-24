@@ -1,0 +1,99 @@
+University of Illinois Survey On Neighborhood Health Analysis
+========================================================
+author: Nana Boateng
+date:  March 30,2017
+autosize: true
+
+Introduction
+========================================================
+
+For more details on authoring R presentations please visit <https://support.rstudio.com/hc/en-us/articles/200486468>.
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+Slide With Code
+========================================================
+
+```{r,echo=FALSE}
+#==================================================================
+# Install packages not already installed in a list
+#==================================================================
+
+
+list=c("tidyverse","stringr","forcats","ggmap","rvest","tm","SnowballC","dplyr","calibrate","doParallel",
+       "stringi","ggplot2","maps","httr","rsdmx","devtools","plyr","dplyr","ggplot2","caret","elasticnet",
+       "magrittr","broom","glmnet","Hmisc",'knitr',"RSQLite","RANN","lubridate","ggvis","plotly","lars",
+       "ggcorrplot","GGally","ROCR","lattice","car","corrgram","ggcorrplot","sqldf","parallel","readxl","ggmosaic",
+       "vcd","Amelia","d3heatmap")
+
+
+
+list_packages <- list
+new.packages <- list_packages[!(list_packages %in% installed.packages()[,"Package"])]
+if(length(new.packages)) install.packages(new.packages)
+
+R<-suppressWarnings(suppressMessages(sapply(list, require, character.only = TRUE)))
+
+#==================================================================
+#display all coumns of data with dplyr
+# Print first 1000 rows of dataset
+#==================================================================
+
+options(dplyr.width = Inf)
+
+options(dplyr.print_max = 1000)
+
+data<-suppressWarnings(suppressMessages(read_csv("C:/Users/Gucci148/Documents/DataMiningscience/UICProject/Workbook1.csv")))
+
+
+
+colnames(data)<-c("ID","Gender","Age","Hypertension","Employment","Hispanic","Education","Hispanic_ancestry",
+                  "race_white","race_black","race_Asian","race_pacific","race_Amer_Indian","race_other",
+                  "race_dontknow","race_refused","Asian_ancestry")
+data=data[-c(1:9),]
+
+data$Age=as.numeric(data$Age)
+```
+
+Dataset
+========================================================
+
+```{r, echo=FALSE}
+knitr::kable(head(data))
+```
+
+
+Structure of Dataset
+========================================================
+```{r}
+str(data)
+```
+
+
+
+========================================================
+
+```{r,echo=FALSE}
+data$Asian_ancestry=ifelse(data$Asian_ancestry==".","<NA>",data$Asian_ancestry)
+newdata=data%>%dplyr::select(-ID)%>%dplyr::filter(Hypertension!="NO CODED RESPONSE APPLICABLE (SPECIFY)",Employment
+                                                  !="NO CODED RESPONSE APPLICABLE (LEAVE NOTE FIRST)"
+                                                  ,Hispanic!="NO CODED RESPONSE APPLICABLE (SPECIFY)",
+                                                  Education!="NO CODED RESPONSE APPLICABLE (SPECIFY)")
+newdata=mutate(newdata,Gender=as.factor(Gender),Age=as.numeric(Age),Hypertension=as.factor(Hypertension),Employment=as.factor(Employment),
+       Hispanic=as.factor(Hispanic),Education=as.factor(Education),Hispanic_ancestry=as.factor(Hispanic_ancestry),
+       race_white=as.factor(race_white),race_black=as.factor(race_black),race_Asian=as.factor(race_Asian),
+       race_pacific=as.factor(race_pacific),race_Amer_Indian=as.factor(race_Amer_Indian),race_other=as.factor(race_other),
+       race_dontknow=as.factor(race_dontknow),race_refused=as.factor(race_refused),Asian_ancestry=as.factor(Asian_ancestry) )
+```
+
+
+- Bullet 1 Exploratory Data Analysis.
+- Bullet 1We explore summary of Hypertension by Age. The median age for those with hypertensive age is 54 whereas the median age for those without hypeertension is 33.
+========================================================
+```{r,echo=FALSE}
+plot(cars)
+
+```
+

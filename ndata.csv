@@ -1,0 +1,425 @@
+Gender,Age,Hypertension,Employment,Hispanic,Education,Hispanic_ancestry,race_white,race_black,race_Asian,race_Amer_Indian,race_other,race_dontknow,race_refused
+Male,24.0,Yes,"Self-employed,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Female,76.0,Yes,"Primarily retired, or",No,High School Graduate,.,Yes,No,No,No,No,No,No
+Male,47.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Female,42.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Female,24.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Female,39.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No
+Male,31.0,Yes,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Female,25.0,No,"Primarily a student,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Female,33.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No
+Male,32.0,No,"Primarily a student,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No
+Female,24.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Male,34.0,No,"Self-employed,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Female,26.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Male,31.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Male,24.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Male,26.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Female,34.0,No,"Employed for wages,",No,"Doctoral Degree (Example: PHD, EDD)",.,Yes,No,No,No,No,No,No
+Female,24.0,No,"Out of work for less than 1 year,",No,11th Grade,.,No,Yes,No,No,No,No,No
+Male,34.0,No,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Male,31.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Female,33.0,No,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Male,42.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Male,24.0,No,"Primarily a student,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,No,Yes,No,No,No,No
+Male,32.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No
+Female,23.0,No,"Primarily a student,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Male,35.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Female,63.0,No,"Employed for wages,",Yes,High School Graduate,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Male,47.0,No,"Employed for wages,",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No
+Male,28.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,No,Yes,No,No,No,No
+Female,45.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Female,46.0,No,"Employed for wages,",No,8th Grade,.,Yes,No,No,No,No,No,No
+Female,21.0,Yes,"Primarily a student,",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No
+Female,31.0,Yes,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,No,Yes,No,No,No,No
+Male,28.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Male,25.0,No,"Employed for wages,",No,High School Graduate,.,Yes,No,No,No,No,No,No
+Male,19.0,No,"Primarily a student,",No,High School Graduate,.,No,No,No,No,Yes,No,No
+Female,60.0,No,"Out of work for less than 1 year,",No,High School Graduate,.,Yes,No,No,No,No,No,No
+Female,91.0,Yes,"Primarily retired, or",No,8th Grade,.,Yes,No,No,No,No,No,No
+Male,46.0,Yes,"Out of work for more than 1 year,",No,High School Graduate,.,Yes,No,No,No,No,No,No
+Male,22.0,No,"Out of work for less than 1 year,",No,High School Graduate,.,Yes,No,No,No,No,No,No
+Female,40.0,No,"Primarily a homemaker,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No
+Female,83.0,Yes,"Primarily retired, or",No,High School Graduate,.,Yes,No,No,No,No,No,No
+Male,39.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Female,42.0,No,"Self-employed,",No,"Professional School Degree (Example: MD, DDS, DVM, JD)",.,Yes,Yes,No,No,No,No,No
+Male,23.0,No,"Employed for wages,",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No
+Female,58.0,No,"Self-employed,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Male,27.0,No,"Self-employed,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Male,23.0,No,"Primarily a student,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Male,29.0,Yes,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Female,33.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No
+Female,25.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No
+Male,47.0,No,"Employed for wages,",No,"Doctoral Degree (Example: PHD, EDD)",.,Yes,No,No,No,No,No,No
+Male,31.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Male,55.0,No,"Employed for wages,",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No
+Male,61.0,No,"Out of work for more than 1 year,",No,"Associate Degree: Occupational, Technical, Or Vocational Pro",.,Yes,No,No,No,No,No,No
+Female,51.0,No,"Out of work for less than 1 year,",No,High School Graduate,.,Yes,No,No,No,No,No,No
+Male,61.0,Yes,"Employed for wages,",No,High School Graduate,.,Yes,No,No,No,No,No,No
+Female,41.0,No,"Employed for wages,",Yes,"Some College, No Degree","Mexican or Mexican/American,",Yes,No,No,No,No,No,No
+Male,51.0,No,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Male,26.0,No,"Self-employed,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Male,47.0,Yes,"Out of work for more than 1 year,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Male,48.0,Yes,"Employed for wages,",No,High School Graduate,.,Yes,No,No,No,No,No,No
+Male,76.0,Yes,"Primarily retired, or",No,9th Grade,.,Yes,No,No,No,No,No,No
+Male,43.0,Yes,"Employed for wages,",Yes,GED or Equivalent,"Mexican or Mexican/American,",No,No,No,Yes,No,No,No
+Male,49.0,No,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,57.0,No,"Employed for wages,",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No
+Female,40.0,No,"Primarily a homemaker,",No,GED or Equivalent,.,Yes,No,No,No,No,No,No
+Female,39.0,No,"Self-employed,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,No,Yes,No,No,No,No
+Male,25.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Male,45.0,Yes,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No
+Female,30.0,No,"Employed for wages,",No,2nd Grade,.,Yes,No,No,No,No,No,No
+Female,21.0,No,"Employed for wages,",No,Associate Degree: Academic Program,.,Yes,No,No,No,No,No,No
+Female,49.0,No,"Employed for wages,",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No
+Male,25.0,Yes,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,No,Yes,No,No,No,No
+Male,26.0,No,"Self-employed,",No,"12th Grade, No Diploma",.,Yes,No,No,No,No,No,No
+Female,24.0,No,"Primarily a student,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,No,Yes,No,No,No,No
+Male,25.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,No,Yes,No,No,No,No
+Male,32.0,No,"Employed for wages,",No,Associate Degree: Academic Program,.,Yes,No,No,No,No,No,No
+Male,47.0,No,"Self-employed,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No
+Female,55.0,No,"Self-employed,",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No
+Male,60.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No
+Male,38.0,No,"Employed for wages,",Yes,"Some College, No Degree","Puerto Rican,",Yes,No,No,No,No,No,No
+Female,54.0,No,"Employed for wages,",Yes,"Bachelor's Degree (Example: BA, AB, BS, BBA)","Puerto Rican,",Yes,No,No,No,No,No,No
+Male,23.0,No,"Primarily a student,",No,High School Graduate,.,Yes,No,No,No,No,No,No
+Male,26.0,No,"Primarily a student,",Yes,"Bachelor's Degree (Example: BA, AB, BS, BBA)",Some other nationality? (SPECIFY),No,No,No,No,Yes,No,No
+Female,20.0,No,"Primarily a student,",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No
+Female,37.0,No,"Primarily a homemaker,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Female,76.0,Yes,"Primarily retired, or",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,No,Yes,No,No,No,No
+Female,33.0,Yes,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No
+Female,23.0,No,"Employed for wages,",No,"12th Grade, No Diploma",.,No,Yes,No,No,No,No,No
+Male,21.0,No,"Out of work for more than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,56.0,Yes,"Out of work for more than 1 year,",No,"12th Grade, No Diploma",.,No,Yes,No,No,No,No,No
+Male,87.0,Yes,"Primarily retired, or",No,"Doctoral Degree (Example: PHD, EDD)",.,No,Yes,No,No,No,No,No
+Male,29.0,No,"Employed for wages,",No,"12th Grade, No Diploma",.,No,Yes,No,No,No,No,No
+Female,75.0,Yes,"Primarily a homemaker,",No,"12th Grade, No Diploma",.,No,Yes,No,No,No,No,No
+Female,19.0,No,"Out of work for less than 1 year,",No,GED or Equivalent,.,No,Yes,No,No,No,No,No
+Male,21.0,Yes,"Employed for wages,",No,11th Grade,.,No,Yes,No,No,No,No,No
+Female,50.0,Yes,Unable to work?,No,11th Grade,.,No,Yes,No,No,No,No,No
+Female,53.0,Yes,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No
+Female,38.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,50.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,Yes,No,No,No,No,No
+Female,50.0,Yes,"Primarily a homemaker,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,20.0,No,Unable to work?,No,"12th Grade, No Diploma",.,No,Yes,No,No,No,No,No
+Male,64.0,Yes,Unable to work?,No,3rd Grade,.,No,Yes,No,No,No,No,No
+Male,21.0,No,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,19.0,No,Unable to work?,No,High School Graduate,.,No,Yes,No,No,No,No,No
+Male,41.0,No,"Primarily retired, or",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No
+Female,33.0,Yes,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,62.0,Yes,Unable to work?,No,"Associate Degree: Occupational, Technical, Or Vocational Pro",.,No,Yes,No,No,No,No,No
+Female,42.0,No,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,55.0,No,"Employed for wages,",No,"Doctoral Degree (Example: PHD, EDD)",.,No,Yes,No,No,No,No,No
+Male,78.0,No,"Self-employed,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Male,41.0,No,"Out of work for more than 1 year,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,53.0,No,Unable to work?,No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,37.0,No,"Primarily a homemaker,",Yes,High School Graduate,"Puerto Rican,",No,No,No,No,No,No,Yes
+Male,26.0,No,"Self-employed,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,26.0,No,"Primarily a homemaker,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,51.0,No,"Employed for wages,",No,Associate Degree: Academic Program,.,No,Yes,No,No,No,No,No
+Female,50.0,No,Unable to work?,No,10th Grade,.,No,Yes,No,No,No,No,No
+Female,46.0,Yes,"Out of work for more than 1 year,",No,10th Grade,.,No,Yes,No,No,No,No,No
+Male,37.0,Yes,Unable to work?,No,10th Grade,.,No,Yes,No,No,No,No,No
+Male,59.0,Yes,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Male,75.0,Yes,"Primarily retired, or",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,38.0,Yes,"Out of work for less than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,43.0,No,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Male,59.0,No,"Out of work for more than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Male,56.0,No,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,46.0,Yes,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No
+Male,60.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,65.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Male,44.0,No,"Employed for wages,",No,"Associate Degree: Occupational, Technical, Or Vocational Pro",.,No,Yes,No,No,No,No,No
+Female,43.0,Yes,"Out of work for more than 1 year,",No,10th Grade,.,No,Yes,No,No,No,No,No
+Female,68.0,Yes,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,Yes,No,No,No,No,No
+Female,50.0,No,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Male,32.0,No,"Employed for wages,",No,Associate Degree: Academic Program,.,No,Yes,No,No,No,No,No
+Male,25.0,No,"Primarily a student,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,23.0,No,"Primarily a student,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,20.0,No,"Out of work for more than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Male,52.0,No,"Self-employed,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,62.0,Yes,Unable to work?,No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Male,23.0,No,"Out of work for more than 1 year,",No,"12th Grade, No Diploma",.,No,Yes,No,No,No,No,No
+Female,32.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No
+Female,63.0,Yes,"Primarily retired, or",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,29.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No
+Female,32.0,Yes,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No
+Female,52.0,No,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Male,29.0,No,"Self-employed,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No
+Male,19.0,No,"Employed for wages,",No,"12th Grade, No Diploma",.,No,Yes,No,No,No,No,No
+Male,31.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,Yes,No,No,No,No,No
+Female,25.0,Yes,"Primarily a student,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,28.0,No,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,28.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,Yes,No,No,No,No,No
+Female,54.0,Yes,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,Yes,No,No,No,No,No
+Male,33.0,No,"Self-employed,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,33.0,Yes,"Out of work for more than 1 year,",No,11th Grade,.,No,Yes,No,No,No,No,No
+Female,30.0,No,"Primarily a homemaker,",No,GED or Equivalent,.,No,Yes,No,No,No,No,No
+Female,47.0,Yes,"Primarily a homemaker,",No,7th Grade,.,No,Yes,No,No,No,No,No
+Female,23.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No
+Female,38.0,No,"Out of work for more than 1 year,",No,10th Grade,.,No,Yes,No,No,No,No,No
+Female,22.0,Yes,"Primarily a student,",No,10th Grade,.,No,Yes,No,No,No,No,No
+Male,20.0,No,"Out of work for less than 1 year,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,68.0,Yes,"Primarily retired, or",No,10th Grade,.,No,Yes,No,No,No,No,No
+Male,35.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Male,58.0,No,"Out of work for less than 1 year,",No,Associate Degree: Academic Program,.,No,Yes,No,No,No,No,No
+Female,63.0,No,"Out of work for more than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Male,84.0,Yes,"Primarily retired, or",No,8th Grade,.,No,Yes,No,No,No,No,No
+Female,50.0,Yes,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Male,19.0,No,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Male,69.0,Yes,"Primarily retired, or",No,DON'T KNOW,.,No,Yes,No,No,No,No,No
+Female,49.0,Yes,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No
+Female,35.0,Yes,"Employed for wages,",No,Associate Degree: Academic Program,.,No,Yes,No,No,No,No,No
+Male,31.0,No,"Employed for wages,",No,"Associate Degree: Occupational, Technical, Or Vocational Pro",.,No,Yes,No,No,No,No,No
+Female,21.0,No,"Primarily a student,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,38.0,Yes,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No
+Female,39.0,Yes,"Out of work for more than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,47.0,Yes,"Employed for wages,",No,"Associate Degree: Occupational, Technical, Or Vocational Pro",.,No,Yes,No,No,No,No,No
+Female,58.0,Yes,Unable to work?,No,10th Grade,.,No,Yes,No,No,No,No,No
+Female,61.0,No,"Out of work for more than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,40.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Male,51.0,Yes,"Out of work for more than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Male,53.0,No,"Out of work for more than 1 year,",No,11th Grade,.,No,Yes,No,No,No,No,No
+Male,40.0,Yes,"Out of work for less than 1 year,",No,GED or Equivalent,.,No,Yes,No,No,No,No,No
+Male,49.0,No,"Out of work for more than 1 year,",No,11th Grade,.,No,Yes,No,No,No,No,No
+Female,62.0,No,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Male,28.0,No,"Primarily a homemaker,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Male,28.0,No,"Out of work for less than 1 year,",No,GED or Equivalent,.,No,Yes,No,No,No,No,No
+Female,46.0,Yes,"Employed for wages,",No,11th Grade,.,No,Yes,No,No,No,No,No
+Female,48.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Male,74.0,No,"Employed for wages,",No,8th Grade,.,No,Yes,No,No,No,No,No
+Female,33.0,No,"Primarily a student,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,53.0,No,"Out of work for more than 1 year,",No,11th Grade,.,No,Yes,No,No,No,No,No
+Female,26.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,36.0,No,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,Yes,No,No,No
+Female,57.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Male,60.0,Yes,"Out of work for more than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Male,53.0,Yes,Unable to work?,No,10th Grade,.,No,Yes,No,No,No,No,No
+Female,29.0,Yes,"Self-employed,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,66.0,Yes,Unable to work?,No,9th Grade,.,No,Yes,No,No,No,No,No
+Female,41.0,Yes,"Out of work for less than 1 year,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Male,36.0,No,"Employed for wages,",No,"Associate Degree: Occupational, Technical, Or Vocational Pro",.,No,Yes,No,No,No,No,No
+Male,58.0,Yes,"Primarily retired, or",No,11th Grade,.,No,Yes,No,No,No,No,No
+Female,54.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Male,25.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Male,62.0,No,"Primarily retired, or",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Male,45.0,No,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,34.0,No,"Employed for wages,",No,11th Grade,.,No,Yes,No,No,No,No,No
+Male,35.0,No,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,54.0,Yes,Unable to work?,No,High School Graduate,.,No,Yes,No,No,No,No,No
+Male,19.0,No,"Primarily a student,",No,11th Grade,.,No,Yes,No,No,No,No,No
+Male,28.0,Yes,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No
+Female,30.0,No,"Employed for wages,",Yes,"Some College, No Degree","Puerto Rican,",Yes,No,No,No,No,No,No
+Male,30.0,No,"Employed for wages,",Yes,"Some College, No Degree","Puerto Rican,",No,No,No,No,Yes,No,No
+Male,32.0,No,"Employed for wages,",Yes,"12th Grade, No Diploma","Puerto Rican,",No,No,No,No,Yes,No,No
+Male,27.0,No,"Employed for wages,",Yes,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",Some other nationality? (SPECIFY),No,Yes,No,No,No,No,No
+Male,34.0,No,"Out of work for less than 1 year,",No,GED or Equivalent,.,No,Yes,No,No,No,No,No
+Male,38.0,No,"Employed for wages,",No,GED or Equivalent,.,No,Yes,No,No,No,No,No
+Female,28.0,No,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,56.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Male,55.0,Yes,"Out of work for more than 1 year,",No,8th Grade,.,No,Yes,No,No,No,No,No
+Female,43.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,36.0,No,"Primarily a student,",No,11th Grade,.,No,Yes,No,No,No,No,No
+Female,38.0,No,"Out of work for more than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,35.0,No,"Self-employed,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,55.0,Yes,Unable to work?,No,10th Grade,.,No,Yes,No,No,No,No,No
+Female,32.0,No,"Out of work for less than 1 year,",No,GED or Equivalent,.,No,Yes,No,No,No,No,No
+Female,78.0,Yes,"Primarily retired, or",No,11th Grade,.,No,Yes,No,No,No,No,No
+Female,58.0,Yes,Unable to work?,No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,67.0,No,"Primarily retired, or",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,24.0,No,"Primarily a student,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Male,25.0,No,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,21.0,Yes,"Primarily a student,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,56.0,No,Unable to work?,No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,Yes,No,No,No
+Male,22.0,Yes,"Out of work for more than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,67.0,Yes,Unable to work?,No,10th Grade,.,No,Yes,No,No,No,No,No
+Female,23.0,No,"Self-employed,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Male,34.0,No,"Self-employed,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,71.0,Yes,Unable to work?,No,10th Grade,.,No,Yes,No,No,No,No,No
+Female,43.0,No,"Out of work for more than 1 year,",Yes,Associate Degree: Academic Program,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Female,41.0,No,"Out of work for less than 1 year,",No,11th Grade,.,No,Yes,No,No,No,No,No
+Female,39.0,No,"Out of work for less than 1 year,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,71.0,Yes,"Primarily retired, or",No,GED or Equivalent,.,No,Yes,No,No,No,No,No
+Female,54.0,Yes,Unable to work?,No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,56.0,Yes,Unable to work?,No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,59.0,Yes,"Primarily a homemaker,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,68.0,Yes,"Primarily retired, or",No,11th Grade,.,No,Yes,No,No,No,No,No
+Female,65.0,Yes,"Primarily retired, or",No,11th Grade,.,No,Yes,No,No,No,No,No
+Male,64.0,Yes,Unable to work?,No,11th Grade,.,No,Yes,No,No,No,No,No
+Female,70.0,Yes,"Primarily retired, or",No,GED or Equivalent,.,No,No,No,Yes,Yes,No,No
+Female,72.0,Yes,"Primarily retired, or",No,Associate Degree: Academic Program,.,No,Yes,No,No,No,No,No
+Female,59.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Male,31.0,No,"Out of work for less than 1 year,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,53.0,No,"Employed for wages,",No,Associate Degree: Academic Program,.,No,Yes,No,No,No,No,No
+Female,64.0,No,"Self-employed,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No
+Female,68.0,Yes,"Primarily retired, or",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,29.0,Yes,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Male,23.0,No,"Out of work for more than 1 year,",No,"12th Grade, No Diploma",.,No,Yes,No,No,No,No,No
+Male,50.0,Yes,"Self-employed,",No,"Associate Degree: Occupational, Technical, Or Vocational Pro",.,No,Yes,No,No,No,No,No
+Male,66.0,Yes,"Primarily retired, or",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No
+Male,21.0,No,"Primarily a student,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,21.0,No,Unable to work?,No,High School Graduate,.,No,Yes,No,No,No,No,No
+Male,26.0,No,"Out of work for more than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Male,53.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,55.0,No,"Out of work for more than 1 year,",No,11th Grade,.,No,Yes,No,No,No,No,No
+Male,30.0,No,Unable to work?,No,High School Graduate,.,No,Yes,No,No,No,No,No
+Male,51.0,Yes,Unable to work?,No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,Yes,No,No,No,No,No
+Male,65.0,Yes,"Primarily retired, or",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,65.0,No,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Male,56.0,No,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,65.0,Yes,Unable to work?,No,11th Grade,.,No,Yes,No,No,No,No,No
+Female,63.0,Yes,"Primarily retired, or",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,46.0,Yes,Unable to work?,No,"12th Grade, No Diploma",.,No,Yes,No,No,No,No,No
+Female,49.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,27.0,No,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,42.0,Yes,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Male,43.0,No,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Male,45.0,No,"Out of work for less than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,55.0,Yes,Unable to work?,No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,Yes,No,No,No,No,No
+Female,62.0,No,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,71.0,Yes,"Primarily retired, or",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,35.0,No,"Self-employed,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,72.0,No,Unable to work?,No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,54.0,No,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,41.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,Yes,No,No,No,No,No
+Female,73.0,Yes,"Primarily retired, or",No,9th Grade,.,No,Yes,No,No,No,No,No
+Female,55.0,No,"Out of work for more than 1 year,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,31.0,No,"Out of work for less than 1 year,",No,GED or Equivalent,.,No,Yes,No,No,No,No,No
+Male,38.0,No,"Self-employed,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,52.0,Yes,"Out of work for more than 1 year,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,23.0,No,"Out of work for more than 1 year,",No,"Associate Degree: Occupational, Technical, Or Vocational Pro",.,No,Yes,No,No,No,No,No
+Female,63.0,No,"Employed for wages,",No,"Associate Degree: Occupational, Technical, Or Vocational Pro",.,No,Yes,No,No,No,No,No
+Male,44.0,Yes,"Out of work for less than 1 year,",No,"Associate Degree: Occupational, Technical, Or Vocational Pro",.,No,Yes,No,No,No,No,No
+Female,19.0,Yes,"Primarily retired, or",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,59.0,Yes,Unable to work?,No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,51.0,Yes,Unable to work?,No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,22.0,No,"Self-employed,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,30.0,No,"Employed for wages,",Yes,"Some College, No Degree","Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Female,37.0,No,"Out of work for less than 1 year,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,23.0,No,"Out of work for less than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Female,55.0,No,"Out of work for less than 1 year,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Male,42.0,No,"Out of work for more than 1 year,",No,"Some College, No Degree",.,No,Yes,No,Yes,No,No,No
+Female,79.0,Yes,"Primarily retired, or",Yes,1st Grade,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Female,36.0,No,"Employed for wages,",Yes,High School Graduate,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Female,53.0,No,"Out of work for more than 1 year,",Yes,6th Grade,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Male,75.0,Yes,"Primarily retired, or",Yes,9th Grade,"Mexican or Mexican/American,",Yes,No,No,No,No,No,No
+Male,65.0,Yes,"Employed for wages,",Yes,High School Graduate,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Female,53.0,Yes,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No
+Male,23.0,No,"Out of work for more than 1 year,",Yes,"Bachelor's Degree (Example: BA, AB, BS, BBA)","Mexican or Mexican/American,",No,No,No,No,No,No,Yes
+Male,32.0,No,"Employed for wages,",Yes,High School Graduate,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No
+Female,44.0,Yes,Unable to work?,Yes,"Some College, No Degree","Puerto Rican,",Yes,No,No,No,No,No,No
+Male,38.0,Yes,"Employed for wages,",Yes,6th Grade,"Puerto Rican,",Yes,No,No,No,No,No,No
+Female,40.0,No,"Out of work for more than 1 year,",Yes,8th Grade,"Mexican or Mexican/American,",Yes,No,No,No,No,No,No
+Female,40.0,No,"Employed for wages,",Yes,8th Grade,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Female,77.0,Yes,"Primarily retired, or",Yes,3rd Grade,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Female,31.0,No,"Employed for wages,",Yes,High School Graduate,"Mexican or Mexican/American,",No,No,No,Yes,No,No,No
+Female,32.0,No,"Primarily a homemaker,",Yes,High School Graduate,"Mexican or Mexican/American,",Yes,No,No,No,No,No,No
+Female,43.0,Yes,"Employed for wages,",Yes,High School Graduate,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No
+Female,42.0,No,"Employed for wages,",Yes,GED or Equivalent,"Mexican or Mexican/American,",Yes,No,No,No,No,No,No
+Female,74.0,Yes,"Primarily retired, or",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No
+Male,54.0,Yes,"Employed for wages,",No,High School Graduate,.,Yes,No,No,No,No,No,No
+Female,58.0,Yes,"Primarily a homemaker,",Yes,"12th Grade, No Diploma","Mexican or Mexican/American,",No,No,No,Yes,No,No,No
+Female,30.0,No,"Employed for wages,",Yes,High School Graduate,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No
+Male,24.0,No,"Primarily a student,",Yes,High School Graduate,"Mexican or Mexican/American,",No,No,No,Yes,No,No,No
+Male,65.0,Yes,"Primarily retired, or",Yes,High School Graduate,Some other nationality? (SPECIFY),No,Yes,No,No,No,No,No
+Male,23.0,No,"Employed for wages,",Yes,"Bachelor's Degree (Example: BA, AB, BS, BBA)","Puerto Rican,",No,No,No,No,Yes,No,No
+Male,33.0,No,"Employed for wages,",Yes,"Some College, No Degree","Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Female,62.0,No,Unable to work?,No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No
+Male,27.0,No,"Employed for wages,",Yes,High School Graduate,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Male,26.0,No,"Self-employed,",Yes,Associate Degree: Academic Program,"Mexican or Mexican/American,",Yes,No,No,No,No,No,No
+Male,35.0,No,"Out of work for more than 1 year,",No,High School Graduate,.,Yes,No,No,No,No,No,No
+Female,26.0,Yes,"Primarily a homemaker,",Yes,High School Graduate,"Mexican or Mexican/American,",Yes,No,No,No,No,No,No
+Female,44.0,No,"Primarily a homemaker,",Yes,Never Attended / Kindergarten Only,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Male,22.0,No,"Employed for wages,",Yes,High School Graduate,"Puerto Rican,",No,Yes,No,No,No,No,No
+Male,33.0,Yes,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,Yes,No,No,No,No,No
+Female,48.0,Yes,Unable to work?,No,High School Graduate,.,No,Yes,No,No,No,No,No
+Male,23.0,No,"Employed for wages,",Yes,"Some College, No Degree","Mexican or Mexican/American,",Yes,No,No,No,No,No,No
+Female,35.0,No,"Out of work for more than 1 year,",Yes,"Bachelor's Degree (Example: BA, AB, BS, BBA)",Some other nationality? (SPECIFY),Yes,No,No,No,No,No,No
+Male,26.0,No,"Self-employed,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Female,31.0,No,"Employed for wages,",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No
+Male,51.0,Yes,"Out of work for more than 1 year,",Yes,3rd Grade,"Puerto Rican,",No,No,No,No,Yes,No,No
+Female,63.0,Yes,"Primarily a homemaker,",No,8th Grade,.,No,Yes,No,No,No,No,No
+Female,59.0,No,Unable to work?,Yes,5th Grade,"Puerto Rican,",No,No,No,No,Yes,No,No
+Male,35.0,No,"Employed for wages,",Yes,GED or Equivalent,"Puerto Rican,",No,No,No,No,Yes,No,No
+Female,28.0,No,"Employed for wages,",Yes,High School Graduate,"Puerto Rican,",No,No,No,No,No,Yes,No
+Female,66.0,Yes,Unable to work?,Yes,9th Grade,"Puerto Rican,",No,No,No,No,No,No,Yes
+Male,47.0,No,"Employed for wages,",Yes,"Some College, No Degree","Mexican or Mexican/American,",No,No,No,No,No,Yes,No
+Female,22.0,No,"Employed for wages,",Yes,High School Graduate,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No
+Female,45.0,Yes,"Out of work for less than 1 year,",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No
+Female,71.0,Yes,"Primarily a homemaker,",Yes,High School Graduate,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No
+Female,37.0,No,"Employed for wages,",Yes,"Master's Degree (Example: MA, MS, MENG, MED, MBA)","Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Female,54.0,No,"Employed for wages,",Yes,9th Grade,"Mexican or Mexican/American,",Yes,No,No,No,No,No,No
+Male,32.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Female,62.0,No,"Out of work for more than 1 year,",Yes,4th Grade,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Female,50.0,Yes,"Self-employed,",Yes,4th Grade,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Female,39.0,No,"Primarily a homemaker,",Yes,6th Grade,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Male,33.0,No,"Self-employed,",Yes,11th Grade,"Mexican or Mexican/American,",Yes,No,No,No,No,No,No
+Female,46.0,No,"Primarily a homemaker,",Yes,9th Grade,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Male,53.0,Yes,Unable to work?,Yes,High School Graduate,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Female,37.0,No,"Primarily a homemaker,",Yes,High School Graduate,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Male,57.0,Yes,"Employed for wages,",Yes,6th Grade,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Female,70.0,Yes,"Employed for wages,",No,High School Graduate,.,Yes,No,No,No,No,No,No
+Male,22.0,No,"Out of work for less than 1 year,",Yes,"Some College, No Degree","Mexican or Mexican/American,",Yes,No,No,No,No,No,No
+Male,64.0,Yes,Unable to work?,Yes,6th Grade,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Male,32.0,No,"Self-employed,",Yes,6th Grade,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No
+Female,38.0,No,"Employed for wages,",No,"Associate Degree: Occupational, Technical, Or Vocational Pro",.,Yes,No,No,No,No,No,No
+Male,32.0,No,"Employed for wages,",Yes,6th Grade,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Male,32.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Female,20.0,No,"Out of work for less than 1 year,",Yes,GED or Equivalent,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Male,39.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No
+Female,41.0,No,"Employed for wages,",Yes,"12th Grade, No Diploma","Mexican or Mexican/American,",Yes,No,No,No,No,No,No
+Female,20.0,No,"Employed for wages,",Yes,High School Graduate,"Mexican or Mexican/American,",Yes,No,No,No,No,No,No
+Female,58.0,Yes,"Primarily a homemaker,",Yes,8th Grade,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Female,30.0,No,"Primarily a homemaker,",Yes,9th Grade,"Mexican or Mexican/American,",Yes,No,No,No,No,No,No
+Male,37.0,No,"Employed for wages,",Yes,High School Graduate,"Mexican or Mexican/American,",Yes,No,No,No,No,No,No
+Female,32.0,No,"Employed for wages,",Yes,"Master's Degree (Example: MA, MS, MENG, MED, MBA)","Mexican or Mexican/American,",Yes,No,No,No,No,No,No
+Male,35.0,No,"Employed for wages,",Yes,"Bachelor's Degree (Example: BA, AB, BS, BBA)","Mexican or Mexican/American,",Yes,No,No,No,No,No,No
+Female,51.0,No,"Employed for wages,",Yes,"Bachelor's Degree (Example: BA, AB, BS, BBA)","Mexican or Mexican/American,",Yes,No,No,No,No,No,No
+Female,63.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No
+Female,63.0,Yes,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,Yes,No,No,No,No,No
+Female,27.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,Yes,No,No,No,No,No
+Female,37.0,No,"Primarily a homemaker,",Yes,11th Grade,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Male,79.0,No,"Primarily retired, or",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No
+Male,35.0,No,"Employed for wages,",Yes,"Associate Degree: Occupational, Technical, Or Vocational Pro","Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Female,43.0,No,"Employed for wages,",Yes,6th Grade,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Female,49.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No
+Male,35.0,No,"Employed for wages,",Yes,11th Grade,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Female,49.0,No,"Primarily a homemaker,",Yes,GED or Equivalent,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No
+Male,23.0,No,"Out of work for less than 1 year,",Yes,"12th Grade, No Diploma","Mexican or Mexican/American,",No,No,No,No,No,Yes,No
+Male,56.0,No,Unable to work?,No,"12th Grade, No Diploma",.,Yes,No,No,No,No,No,No
+Female,49.0,No,"Primarily a homemaker,",Yes,"12th Grade, No Diploma","Mexican or Mexican/American,",No,No,No,No,No,Yes,No
+Female,32.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Male,25.0,Yes,"Primarily a student,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No
+Female,28.0,No,"Primarily a student,",No,"Doctoral Degree (Example: PHD, EDD)",.,Yes,No,No,No,No,No,No
+Female,28.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,No,Yes,No,No,No,No
+Female,26.0,No,"Primarily a student,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,No,Yes,No,No,No,No
+Female,31.0,No,"Primarily a student,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No
+Male,22.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Female,49.0,Yes,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Male,25.0,No,"Primarily a student,",Yes,"Bachelor's Degree (Example: BA, AB, BS, BBA)","Ecuadorian, or",Yes,No,No,No,No,No,No
+Male,34.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,No,Yes,No,Yes,No,No
+Male,19.0,No,"Self-employed,",Yes,High School Graduate,"Puerto Rican,",Yes,No,No,No,No,No,No
+Female,63.0,Yes,"Primarily retired, or",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Male,43.0,No,"Employed for wages,",No,"Associate Degree: Occupational, Technical, Or Vocational Pro",.,No,No,Yes,No,No,No,No
+Female,23.0,No,"Primarily a student,",No,"Some College, No Degree",.,No,No,Yes,No,No,No,No
+Female,90.0,Yes,"Primarily retired, or",No,High School Graduate,.,Yes,No,No,No,No,No,No
+Female,68.0,Yes,"Primarily retired, or",No,High School Graduate,.,Yes,No,No,No,No,No,No
+Female,84.0,Yes,"Primarily retired, or",No,High School Graduate,.,Yes,No,No,No,No,No,No
+Female,21.0,No,"Primarily a student,",No,"Some College, No Degree",.,No,No,Yes,No,No,No,No
+Male,31.0,No,"Employed for wages,",No,High School Graduate,.,Yes,No,No,No,No,No,No
+Male,23.0,No,"Employed for wages,",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No
+Female,26.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No
+Female,36.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Male,30.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No
+Male,32.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No
+Female,30.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Male,23.0,Yes,"Primarily a student,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Male,69.0,Yes,"Self-employed,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,No,No,Yes,No,No,No
+Female,19.0,No,"Employed for wages,",No,High School Graduate,.,Yes,Yes,No,No,No,No,No
+Male,67.0,No,"Out of work for more than 1 year,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Female,21.0,No,"Primarily a student,",No,"Some College, No Degree",.,No,No,Yes,No,No,No,No
+Male,28.0,No,"Out of work for more than 1 year,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,Yes,No,No,No,No
+Female,50.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,No,Yes,No,No,No,No
+Female,50.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,No,Yes,No,No,No,No
+Male,39.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No
+Female,38.0,No,"Employed for wages,",No,"Doctoral Degree (Example: PHD, EDD)",.,Yes,No,No,No,No,No,No

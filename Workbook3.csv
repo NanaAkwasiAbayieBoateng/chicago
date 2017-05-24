@@ -1,0 +1,455 @@
+ID,Gender,Age,Hypertension,Employment,Hispanic,Education,Hispanic_ancestry,race_white,race_black,race_Asian,race_pacific,race_Amer_Indian,race_other,race_dontknow,race_refused,Asian_ancestry
+1,Male,24.0,Yes,"Self-employed,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+2,Female,76.0,Yes,"Primarily retired, or",No,High School Graduate,.,Yes,No,No,No,No,No,No,No,.
+3,Male,47.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+4,Female,42.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+5,Female,24.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+6,Female,39.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No,No,.
+7,Male,31.0,Yes,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+8,Female,25.0,No,"Primarily a student,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+9,Female,33.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No,No,.
+10,Male,32.0,No,"Primarily a student,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No,No,.
+11,Female,24.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+12,Male,34.0,No,"Self-employed,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+13,Female,26.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+14,Male,31.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+15,Male,24.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+16,Male,26.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+17,Female,34.0,No,"Employed for wages,",No,"Doctoral Degree (Example: PHD, EDD)",.,Yes,No,No,No,No,No,No,No,.
+18,Female,24.0,No,"Out of work for less than 1 year,",No,11th Grade,.,No,Yes,No,No,No,No,No,No,.
+19,Male,34.0,No,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+20,Male,31.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+21,Female,33.0,No,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+22,Male,42.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+23,Male,24.0,No,"Primarily a student,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,No,Yes,No,No,No,No,No,"Asian Indian,"
+24,Male,32.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No,No,.
+25,Female,23.0,No,"Primarily a student,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+26,Male,35.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+27,Female,63.0,No,"Employed for wages,",Yes,High School Graduate,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+28,Male,47.0,No,"Employed for wages,",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No,No,.
+29,Male,28.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,No,Yes,No,No,No,No,No,"Asian Indian,"
+30,Female,45.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+31,Female,27.0,No,"Employed for wages,",No,NO CODED RESPONSE APPLICABLE (SPECIFY),.,Yes,No,No,No,No,No,No,No,.
+32,Female,46.0,No,"Employed for wages,",No,8th Grade,.,Yes,No,No,No,No,No,No,No,.
+33,Female,21.0,Yes,"Primarily a student,",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No,No,.
+34,Female,31.0,Yes,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,No,Yes,No,No,No,No,No,"Asian Indian,"
+35,Male,28.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+36,Male,25.0,No,"Employed for wages,",No,High School Graduate,.,Yes,No,No,No,No,No,No,No,.
+37,Male,19.0,No,"Primarily a student,",No,High School Graduate,.,No,No,No,No,No,Yes,No,No,.
+38,Female,60.0,No,"Out of work for less than 1 year,",No,High School Graduate,.,Yes,No,No,No,No,No,No,No,.
+39,Female,91.0,Yes,"Primarily retired, or",No,8th Grade,.,Yes,No,No,No,No,No,No,No,.
+40,Male,46.0,Yes,"Out of work for more than 1 year,",No,High School Graduate,.,Yes,No,No,No,No,No,No,No,.
+41,Male,22.0,No,"Out of work for less than 1 year,",No,High School Graduate,.,Yes,No,No,No,No,No,No,No,.
+42,Female,40.0,No,"Primarily a homemaker,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No,No,.
+43,Female,83.0,Yes,"Primarily retired, or",No,High School Graduate,.,Yes,No,No,No,No,No,No,No,.
+44,Male,39.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+45,Female,42.0,No,"Self-employed,",No,"Professional School Degree (Example: MD, DDS, DVM, JD)",.,Yes,Yes,No,No,No,No,No,No,.
+46,Male,23.0,No,"Employed for wages,",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No,No,.
+47,Female,58.0,No,"Self-employed,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+48,Male,27.0,No,"Self-employed,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+49,Male,23.0,No,"Primarily a student,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+50,Female,39.0,No,"Self-employed,",NO CODED RESPONSE APPLICABLE (SPECIFY),"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,No,Yes,No,No,No,No,No,"Korean, or"
+51,Male,29.0,Yes,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+52,Female,33.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No,No,.
+53,Female,25.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No,No,.
+54,Male,47.0,No,"Employed for wages,",No,"Doctoral Degree (Example: PHD, EDD)",.,Yes,No,No,No,No,No,No,No,.
+55,Male,31.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+56,Male,55.0,No,"Employed for wages,",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No,No,.
+57,Male,61.0,No,"Out of work for more than 1 year,",No,"Associate Degree: Occupational, Technical, Or Vocational Pro",.,Yes,No,No,No,No,No,No,No,.
+58,Female,51.0,No,"Out of work for less than 1 year,",No,High School Graduate,.,Yes,No,No,No,No,No,No,No,.
+59,Male,61.0,Yes,"Employed for wages,",No,High School Graduate,.,Yes,No,No,No,No,No,No,No,.
+60,Female,41.0,No,"Employed for wages,",Yes,"Some College, No Degree","Mexican or Mexican/American,",Yes,No,No,No,No,No,No,No,.
+61,Male,51.0,No,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+62,Male,26.0,No,"Self-employed,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+63,Male,47.0,Yes,"Out of work for more than 1 year,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+64,Male,48.0,Yes,"Employed for wages,",No,High School Graduate,.,Yes,No,No,No,No,No,No,No,.
+65,Male,76.0,Yes,"Primarily retired, or",No,9th Grade,.,Yes,No,No,No,No,No,No,No,.
+66,Male,43.0,Yes,"Employed for wages,",Yes,GED or Equivalent,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No,No,.
+67,Male,49.0,No,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+68,Female,57.0,No,"Employed for wages,",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No,No,.
+69,Female,40.0,No,"Primarily a homemaker,",No,GED or Equivalent,.,Yes,No,No,No,No,No,No,No,.
+70,Female,39.0,No,"Self-employed,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,No,Yes,No,No,No,No,No,"Asian Indian,"
+71,Male,25.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+72,Male,45.0,Yes,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No,No,.
+73,Female,30.0,No,"Employed for wages,",No,2nd Grade,.,Yes,No,No,No,No,No,No,No,.
+74,Female,21.0,No,"Employed for wages,",No,Associate Degree: Academic Program,.,Yes,No,No,No,No,No,No,No,.
+75,Female,49.0,No,"Employed for wages,",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No,No,.
+76,Male,25.0,Yes,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,No,Yes,No,No,No,No,No,"Korean, or"
+77,Male,26.0,No,"Self-employed,",No,"12th Grade, No Diploma",.,Yes,No,No,No,No,No,No,No,.
+78,Female,24.0,No,"Primarily a student,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,No,Yes,No,No,No,No,No,"Asian Indian,"
+79,Female,19.0,No,NO CODED RESPONSE APPLICABLE (LEAVE NOTE FIRST),No,High School Graduate,.,No,No,Yes,No,No,No,No,No,"Korean, or"
+80,Male,25.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,No,Yes,No,No,No,No,No,"Asian Indian,"
+81,Male,32.0,No,"Employed for wages,",No,Associate Degree: Academic Program,.,Yes,No,No,No,No,No,No,No,.
+82,Male,47.0,No,"Self-employed,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No,No,.
+83,Female,55.0,No,"Self-employed,",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No,No,.
+84,Male,60.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No,No,.
+85,Male,38.0,No,"Employed for wages,",Yes,"Some College, No Degree","Puerto Rican,",Yes,No,No,No,No,No,No,No,.
+86,Female,54.0,No,"Employed for wages,",Yes,"Bachelor's Degree (Example: BA, AB, BS, BBA)","Puerto Rican,",Yes,No,No,No,No,No,No,No,.
+87,Male,23.0,No,"Primarily a student,",No,High School Graduate,.,Yes,No,No,No,No,No,No,No,.
+88,Male,26.0,No,"Primarily a student,",Yes,"Bachelor's Degree (Example: BA, AB, BS, BBA)",Some other nationality? (SPECIFY),No,No,No,No,No,Yes,No,No,.
+89,Female,20.0,No,"Primarily a student,",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No,No,.
+90,Male,74.0,No,"Primarily retired, or",No,NO CODED RESPONSE APPLICABLE (SPECIFY),.,Yes,No,No,No,No,No,No,No,.
+91,Female,37.0,No,"Primarily a homemaker,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+92,Female,76.0,Yes,"Primarily retired, or",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,No,Yes,No,No,No,No,No,"Korean, or"
+93,Female,33.0,Yes,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No,No,.
+94,Female,23.0,No,"Employed for wages,",No,"12th Grade, No Diploma",.,No,Yes,No,No,No,No,No,No,.
+95,Male,21.0,No,"Out of work for more than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+96,Female,56.0,Yes,"Out of work for more than 1 year,",No,"12th Grade, No Diploma",.,No,Yes,No,No,No,No,No,No,.
+97,Male,87.0,Yes,"Primarily retired, or",No,"Doctoral Degree (Example: PHD, EDD)",.,No,Yes,No,No,No,No,No,No,.
+98,Male,29.0,No,"Employed for wages,",No,"12th Grade, No Diploma",.,No,Yes,No,No,No,No,No,No,.
+99,Female,75.0,Yes,"Primarily a homemaker,",No,"12th Grade, No Diploma",.,No,Yes,No,No,No,No,No,No,.
+100,Female,NA,No,"Out of work for more than 1 year,",No,GED or Equivalent,.,No,Yes,No,No,No,No,No,No,.
+101,Female,19.0,No,"Out of work for less than 1 year,",No,GED or Equivalent,.,No,Yes,No,No,No,No,No,No,.
+102,Male,21.0,Yes,"Employed for wages,",No,11th Grade,.,No,Yes,No,No,No,No,No,No,.
+103,Female,50.0,Yes,Unable to work?,No,11th Grade,.,No,Yes,No,No,No,No,No,No,.
+104,Female,53.0,Yes,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No,No,.
+105,Female,38.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+106,Female,50.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,Yes,No,No,No,No,No,No,.
+107,Female,50.0,Yes,"Primarily a homemaker,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+108,Female,20.0,No,Unable to work?,No,"12th Grade, No Diploma",.,No,Yes,No,No,No,No,No,No,.
+109,Male,64.0,Yes,Unable to work?,No,3rd Grade,.,No,Yes,No,No,No,No,No,No,.
+110,Male,21.0,No,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+111,Female,19.0,No,Unable to work?,No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+112,Male,41.0,No,"Primarily retired, or",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No,No,.
+113,Female,33.0,Yes,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+114,Female,62.0,Yes,Unable to work?,No,"Associate Degree: Occupational, Technical, Or Vocational Pro",.,No,Yes,No,No,No,No,No,No,.
+115,Female,42.0,No,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+116,Female,55.0,No,"Employed for wages,",No,"Doctoral Degree (Example: PHD, EDD)",.,No,Yes,No,No,No,No,No,No,.
+117,Male,78.0,No,"Self-employed,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+118,Female,46.0,NO CODED RESPONSE APPLICABLE (SPECIFY),"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,Yes,No,No,No,No,No,No,.
+119,Male,41.0,No,"Out of work for more than 1 year,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+120,Female,53.0,No,Unable to work?,No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+121,Female,37.0,No,"Primarily a homemaker,",Yes,High School Graduate,"Puerto Rican,",No,No,No,No,No,No,No,Yes,.
+122,Male,26.0,No,"Self-employed,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+123,Female,26.0,No,"Primarily a homemaker,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+124,Female,51.0,No,"Employed for wages,",No,Associate Degree: Academic Program,.,No,Yes,No,No,No,No,No,No,.
+125,Female,50.0,No,Unable to work?,No,10th Grade,.,No,Yes,No,No,No,No,No,No,.
+126,Male,NA,No,"Primarily a student,",No,11th Grade,.,No,Yes,No,No,No,No,No,No,.
+127,Female,46.0,Yes,"Out of work for more than 1 year,",No,10th Grade,.,No,Yes,No,No,No,No,No,No,.
+128,Male,37.0,Yes,Unable to work?,No,10th Grade,.,No,Yes,No,No,No,No,No,No,.
+129,Male,59.0,Yes,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+130,Male,75.0,Yes,"Primarily retired, or",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+131,Female,38.0,Yes,"Out of work for less than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+132,Female,43.0,No,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+133,Male,59.0,No,"Out of work for more than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+134,Male,56.0,No,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+135,Female,46.0,Yes,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No,No,.
+136,Male,60.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+137,Female,65.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+138,Male,44.0,No,"Employed for wages,",No,"Associate Degree: Occupational, Technical, Or Vocational Pro",.,No,Yes,No,No,No,No,No,No,.
+139,Female,43.0,Yes,"Out of work for more than 1 year,",No,10th Grade,.,No,Yes,No,No,No,No,No,No,.
+140,Female,68.0,Yes,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,Yes,No,No,No,No,No,No,.
+141,Female,50.0,No,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+142,Male,NA,No,"Primarily a student,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+143,Male,32.0,No,"Employed for wages,",No,Associate Degree: Academic Program,.,No,Yes,No,No,No,No,No,No,.
+144,Male,25.0,No,"Primarily a student,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+145,Female,23.0,No,"Primarily a student,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+146,Female,20.0,No,"Out of work for more than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+147,Male,52.0,No,"Self-employed,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+148,Female,62.0,Yes,Unable to work?,No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+149,Male,23.0,No,"Out of work for more than 1 year,",No,"12th Grade, No Diploma",.,No,Yes,No,No,No,No,No,No,.
+150,Female,32.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No,No,.
+151,Female,63.0,Yes,"Primarily retired, or",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+152,Female,29.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No,No,.
+153,Female,32.0,Yes,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No,No,.
+154,Female,52.0,No,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+155,Male,29.0,No,"Self-employed,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No,No,.
+156,Male,19.0,No,"Employed for wages,",No,"12th Grade, No Diploma",.,No,Yes,No,No,No,No,No,No,.
+157,Male,31.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,Yes,No,No,No,No,No,No,.
+158,Female,25.0,Yes,"Primarily a student,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+159,Female,28.0,No,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+160,Female,28.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,Yes,No,No,No,No,No,No,.
+161,Female,54.0,Yes,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,Yes,No,No,No,No,No,No,.
+162,Male,33.0,No,"Self-employed,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+163,Female,33.0,Yes,"Out of work for more than 1 year,",No,11th Grade,.,No,Yes,No,No,No,No,No,No,.
+164,Female,30.0,No,"Primarily a homemaker,",No,GED or Equivalent,.,No,Yes,No,No,No,No,No,No,.
+165,Female,47.0,Yes,"Primarily a homemaker,",No,7th Grade,.,No,Yes,No,No,No,No,No,No,.
+166,Female,23.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No,No,.
+167,Female,38.0,No,"Out of work for more than 1 year,",No,10th Grade,.,No,Yes,No,No,No,No,No,No,.
+168,Female,22.0,Yes,"Primarily a student,",No,10th Grade,.,No,Yes,No,No,No,No,No,No,.
+169,Male,20.0,No,"Out of work for less than 1 year,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+170,Female,68.0,Yes,"Primarily retired, or",No,10th Grade,.,No,Yes,No,No,No,No,No,No,.
+171,Male,35.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+172,Male,58.0,No,"Out of work for less than 1 year,",No,Associate Degree: Academic Program,.,No,Yes,No,No,No,No,No,No,.
+173,Female,63.0,No,"Out of work for more than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+174,Male,84.0,Yes,"Primarily retired, or",No,8th Grade,.,No,Yes,No,No,No,No,No,No,.
+175,Female,50.0,Yes,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+176,Male,19.0,No,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+177,Male,69.0,Yes,"Primarily retired, or",No,DON'T KNOW,.,No,Yes,No,No,No,No,No,No,.
+178,Female,49.0,Yes,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No,No,.
+179,Female,35.0,Yes,"Employed for wages,",No,Associate Degree: Academic Program,.,No,Yes,No,No,No,No,No,No,.
+180,Male,31.0,No,"Employed for wages,",No,"Associate Degree: Occupational, Technical, Or Vocational Pro",.,No,Yes,No,No,No,No,No,No,.
+181,Female,21.0,No,"Primarily a student,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+182,Female,38.0,Yes,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No,No,.
+183,Female,39.0,Yes,"Out of work for more than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+184,Female,47.0,Yes,"Employed for wages,",No,"Associate Degree: Occupational, Technical, Or Vocational Pro",.,No,Yes,No,No,No,No,No,No,.
+185,Female,58.0,Yes,Unable to work?,No,10th Grade,.,No,Yes,No,No,No,No,No,No,.
+186,Female,61.0,No,"Out of work for more than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+187,Female,40.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+188,Male,51.0,Yes,"Out of work for more than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+189,Male,53.0,No,"Out of work for more than 1 year,",No,11th Grade,.,No,Yes,No,No,No,No,No,No,.
+190,Male,40.0,Yes,"Out of work for less than 1 year,",No,GED or Equivalent,.,No,Yes,No,No,No,No,No,No,.
+191,Male,49.0,No,"Out of work for more than 1 year,",No,11th Grade,.,No,Yes,No,No,No,No,No,No,.
+192,Female,62.0,No,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+193,Male,28.0,No,"Primarily a homemaker,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+194,Male,28.0,No,"Out of work for less than 1 year,",No,GED or Equivalent,.,No,Yes,No,No,No,No,No,No,.
+195,Female,46.0,Yes,"Employed for wages,",No,11th Grade,.,No,Yes,No,No,No,No,No,No,.
+196,Female,48.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+197,Male,74.0,No,"Employed for wages,",No,8th Grade,.,No,Yes,No,No,No,No,No,No,.
+198,Female,33.0,No,"Primarily a student,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+199,Female,53.0,No,"Out of work for more than 1 year,",No,11th Grade,.,No,Yes,No,No,No,No,No,No,.
+200,Male,35.0,No,"Out of work for less than 1 year,",No,NO CODED RESPONSE APPLICABLE (SPECIFY),.,Yes,Yes,No,No,Yes,No,No,No,.
+201,Female,26.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+202,Female,36.0,No,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,Yes,No,No,No,.
+203,Female,57.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+204,Male,60.0,Yes,"Out of work for more than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+205,Male,53.0,Yes,Unable to work?,No,10th Grade,.,No,Yes,No,No,No,No,No,No,.
+206,Female,29.0,Yes,"Self-employed,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+207,Female,66.0,Yes,Unable to work?,No,9th Grade,.,No,Yes,No,No,No,No,No,No,.
+208,Female,41.0,Yes,"Out of work for less than 1 year,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+209,Male,36.0,No,"Employed for wages,",No,"Associate Degree: Occupational, Technical, Or Vocational Pro",.,No,Yes,No,No,No,No,No,No,.
+210,Male,58.0,Yes,"Primarily retired, or",No,11th Grade,.,No,Yes,No,No,No,No,No,No,.
+211,Female,54.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+212,Male,25.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+213,Male,62.0,No,"Primarily retired, or",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+214,Male,45.0,No,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+215,Female,34.0,No,"Employed for wages,",No,11th Grade,.,No,Yes,No,No,No,No,No,No,.
+216,Female,NA,No,"Out of work for less than 1 year,",No,11th Grade,.,No,Yes,No,No,No,No,No,No,.
+217,Male,35.0,No,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+218,Female,54.0,Yes,Unable to work?,No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+219,Male,19.0,No,"Primarily a student,",No,11th Grade,.,No,Yes,No,No,No,No,No,No,.
+220,Male,28.0,Yes,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No,No,.
+221,Female,30.0,No,"Employed for wages,",Yes,"Some College, No Degree","Puerto Rican,",Yes,No,No,No,No,No,No,No,.
+222,Male,30.0,No,"Employed for wages,",Yes,"Some College, No Degree","Puerto Rican,",No,No,No,No,No,Yes,No,No,.
+223,Male,32.0,No,"Employed for wages,",Yes,"12th Grade, No Diploma","Puerto Rican,",No,No,No,No,No,Yes,No,No,.
+224,Male,27.0,No,"Employed for wages,",Yes,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",Some other nationality? (SPECIFY),No,Yes,No,No,No,No,No,No,.
+225,Male,34.0,No,"Out of work for less than 1 year,",No,GED or Equivalent,.,No,Yes,No,No,No,No,No,No,.
+226,Male,38.0,No,"Employed for wages,",No,GED or Equivalent,.,No,Yes,No,No,No,No,No,No,.
+227,Female,28.0,No,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+228,Female,56.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+229,Male,55.0,Yes,"Out of work for more than 1 year,",No,8th Grade,.,No,Yes,No,No,No,No,No,No,.
+230,Female,43.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+231,Female,36.0,No,"Primarily a student,",No,11th Grade,.,No,Yes,No,No,No,No,No,No,.
+232,Female,38.0,No,"Out of work for more than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+233,Female,35.0,No,"Self-employed,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+234,Female,55.0,Yes,Unable to work?,No,10th Grade,.,No,Yes,No,No,No,No,No,No,.
+235,Female,32.0,No,"Out of work for less than 1 year,",No,GED or Equivalent,.,No,Yes,No,No,No,No,No,No,.
+236,Female,78.0,Yes,"Primarily retired, or",No,11th Grade,.,No,Yes,No,No,No,No,No,No,.
+237,Male,NA,No,"Primarily a student,",No,11th Grade,.,No,Yes,No,No,No,No,No,No,.
+238,Female,58.0,Yes,Unable to work?,No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+239,Female,20.0,No,"Employed for wages,",No,NO CODED RESPONSE APPLICABLE (SPECIFY),.,No,Yes,No,No,No,No,No,No,.
+240,Female,67.0,No,"Primarily retired, or",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+241,Female,24.0,No,"Primarily a student,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+242,Male,25.0,No,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+243,Female,21.0,Yes,"Primarily a student,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+244,Female,56.0,No,Unable to work?,No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,Yes,No,No,No,.
+245,Male,22.0,Yes,"Out of work for more than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+246,Female,67.0,Yes,Unable to work?,No,10th Grade,.,No,Yes,No,No,No,No,No,No,.
+247,Female,23.0,No,"Self-employed,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+248,Male,34.0,No,"Self-employed,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+249,Female,71.0,Yes,Unable to work?,No,10th Grade,.,No,Yes,No,No,No,No,No,No,.
+250,Female,43.0,No,"Out of work for more than 1 year,",Yes,Associate Degree: Academic Program,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+251,Female,41.0,No,"Out of work for less than 1 year,",No,11th Grade,.,No,Yes,No,No,No,No,No,No,.
+252,Female,39.0,No,"Out of work for less than 1 year,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+253,Female,71.0,Yes,"Primarily retired, or",No,GED or Equivalent,.,No,Yes,No,No,No,No,No,No,.
+254,Female,54.0,Yes,Unable to work?,No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+255,Female,56.0,Yes,Unable to work?,No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+256,Female,59.0,Yes,"Primarily a homemaker,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+257,Female,68.0,Yes,"Primarily retired, or",No,11th Grade,.,No,Yes,No,No,No,No,No,No,.
+258,Female,65.0,Yes,"Primarily retired, or",No,11th Grade,.,No,Yes,No,No,No,No,No,No,.
+259,Male,64.0,Yes,Unable to work?,No,11th Grade,.,No,Yes,No,No,No,No,No,No,.
+260,Female,70.0,Yes,"Primarily retired, or",No,GED or Equivalent,.,No,No,No,No,Yes,Yes,No,No,.
+261,Female,72.0,Yes,"Primarily retired, or",No,Associate Degree: Academic Program,.,No,Yes,No,No,No,No,No,No,.
+262,Female,59.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+263,Male,31.0,No,"Out of work for less than 1 year,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+264,Female,53.0,No,"Employed for wages,",No,Associate Degree: Academic Program,.,No,Yes,No,No,No,No,No,No,.
+265,Female,64.0,No,"Self-employed,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No,No,.
+266,Female,68.0,Yes,"Primarily retired, or",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+267,Female,29.0,Yes,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+268,Male,23.0,No,"Out of work for more than 1 year,",No,"12th Grade, No Diploma",.,No,Yes,No,No,No,No,No,No,.
+269,Male,50.0,Yes,"Self-employed,",No,"Associate Degree: Occupational, Technical, Or Vocational Pro",.,No,Yes,No,No,No,No,No,No,.
+270,Male,66.0,Yes,"Primarily retired, or",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No,No,.
+271,Male,21.0,No,"Primarily a student,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+272,Female,21.0,No,Unable to work?,No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+273,Male,26.0,No,"Out of work for more than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+274,Male,53.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+275,Female,55.0,No,"Out of work for more than 1 year,",No,11th Grade,.,No,Yes,No,No,No,No,No,No,.
+276,Male,30.0,No,Unable to work?,No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+277,Female,29.0,NO CODED RESPONSE APPLICABLE (SPECIFY),"Self-employed,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+278,Male,51.0,Yes,Unable to work?,No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,Yes,No,No,No,No,No,No,.
+279,Male,65.0,Yes,"Primarily retired, or",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+280,Female,65.0,No,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+281,Male,56.0,No,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+282,Female,65.0,Yes,Unable to work?,No,11th Grade,.,No,Yes,No,No,No,No,No,No,.
+283,Female,63.0,Yes,"Primarily retired, or",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+284,Female,46.0,Yes,Unable to work?,No,"12th Grade, No Diploma",.,No,Yes,No,No,No,No,No,No,.
+285,Female,49.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+286,Female,27.0,No,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+287,Female,42.0,Yes,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+288,Male,43.0,No,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+289,Male,45.0,No,"Out of work for less than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+290,Female,55.0,Yes,Unable to work?,No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,Yes,No,No,No,No,No,No,.
+291,Female,62.0,No,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+292,Female,71.0,Yes,"Primarily retired, or",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+293,Female,35.0,No,"Self-employed,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+294,Female,72.0,No,Unable to work?,No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+295,Female,NA,No,"Primarily a student,",No,11th Grade,.,No,Yes,No,No,No,No,No,No,.
+296,Female,54.0,No,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+297,Female,41.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,Yes,No,No,No,No,No,No,.
+298,Female,73.0,Yes,"Primarily retired, or",No,9th Grade,.,No,Yes,No,No,No,No,No,No,.
+299,Female,55.0,No,"Out of work for more than 1 year,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+300,Female,31.0,No,"Out of work for less than 1 year,",No,GED or Equivalent,.,No,Yes,No,No,No,No,No,No,.
+301,Male,38.0,No,"Self-employed,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+302,Female,52.0,Yes,"Out of work for more than 1 year,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+303,Female,23.0,No,"Out of work for more than 1 year,",No,"Associate Degree: Occupational, Technical, Or Vocational Pro",.,No,Yes,No,No,No,No,No,No,.
+304,Female,63.0,No,"Employed for wages,",No,"Associate Degree: Occupational, Technical, Or Vocational Pro",.,No,Yes,No,No,No,No,No,No,.
+305,Male,44.0,Yes,"Out of work for less than 1 year,",No,"Associate Degree: Occupational, Technical, Or Vocational Pro",.,No,Yes,No,No,No,No,No,No,.
+306,Female,19.0,Yes,"Primarily retired, or",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+307,Female,59.0,Yes,Unable to work?,No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+308,Female,51.0,Yes,Unable to work?,No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+309,Female,22.0,No,"Self-employed,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+310,Female,30.0,No,"Employed for wages,",Yes,"Some College, No Degree","Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+311,Female,37.0,No,"Out of work for less than 1 year,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+312,Female,23.0,No,"Out of work for less than 1 year,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+313,Female,55.0,No,"Out of work for less than 1 year,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+314,Male,42.0,No,"Out of work for more than 1 year,",No,"Some College, No Degree",.,No,Yes,No,No,Yes,No,No,No,.
+315,Female,79.0,Yes,"Primarily retired, or",Yes,1st Grade,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+316,Female,36.0,No,"Employed for wages,",Yes,High School Graduate,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+317,Female,53.0,No,"Out of work for more than 1 year,",Yes,6th Grade,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+318,Male,75.0,Yes,"Primarily retired, or",Yes,9th Grade,"Mexican or Mexican/American,",Yes,No,No,No,No,No,No,No,.
+319,Male,65.0,Yes,"Employed for wages,",Yes,High School Graduate,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+320,Female,53.0,Yes,"Employed for wages,",No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+321,Male,23.0,No,"Out of work for more than 1 year,",Yes,"Bachelor's Degree (Example: BA, AB, BS, BBA)","Mexican or Mexican/American,",No,No,No,No,No,No,No,Yes,.
+322,Male,32.0,No,"Employed for wages,",Yes,High School Graduate,"Mexican or Mexican/American,",No,No,No,No,No,No,Yes,No,.
+323,Female,44.0,Yes,Unable to work?,Yes,"Some College, No Degree","Puerto Rican,",Yes,No,No,No,No,No,No,No,.
+324,Male,38.0,Yes,"Employed for wages,",Yes,6th Grade,"Puerto Rican,",Yes,No,No,No,No,No,No,No,.
+325,Female,40.0,No,"Out of work for more than 1 year,",Yes,8th Grade,"Mexican or Mexican/American,",Yes,No,No,No,No,No,No,No,.
+326,Female,40.0,No,"Employed for wages,",Yes,8th Grade,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+327,Female,77.0,Yes,"Primarily retired, or",Yes,3rd Grade,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+328,Female,31.0,No,"Employed for wages,",Yes,High School Graduate,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No,No,.
+329,Female,32.0,No,"Primarily a homemaker,",Yes,High School Graduate,"Mexican or Mexican/American,",Yes,No,No,No,No,No,No,No,.
+330,Female,43.0,Yes,"Employed for wages,",Yes,High School Graduate,"Mexican or Mexican/American,",No,No,No,No,No,No,Yes,No,.
+331,Female,42.0,No,"Employed for wages,",Yes,GED or Equivalent,"Mexican or Mexican/American,",Yes,No,No,No,No,No,No,No,.
+332,Female,74.0,Yes,"Primarily retired, or",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No,No,.
+333,Male,54.0,Yes,"Employed for wages,",No,High School Graduate,.,Yes,No,No,No,No,No,No,No,.
+334,Female,58.0,Yes,"Primarily a homemaker,",Yes,"12th Grade, No Diploma","Mexican or Mexican/American,",No,No,No,No,Yes,No,No,No,.
+335,Female,30.0,No,"Employed for wages,",Yes,High School Graduate,"Mexican or Mexican/American,",No,No,No,No,No,No,Yes,No,.
+336,Female,NA,No,"Employed for wages,",Yes,"12th Grade, No Diploma","Mexican or Mexican/American,",No,No,No,No,No,No,Yes,No,.
+337,Male,24.0,No,"Primarily a student,",Yes,High School Graduate,"Mexican or Mexican/American,",No,No,No,No,Yes,No,No,No,.
+338,Male,65.0,Yes,"Primarily retired, or",Yes,High School Graduate,Some other nationality? (SPECIFY),No,Yes,No,No,No,No,No,No,.
+339,Male,23.0,No,"Employed for wages,",Yes,"Bachelor's Degree (Example: BA, AB, BS, BBA)","Puerto Rican,",No,No,No,No,No,Yes,No,No,.
+340,Male,33.0,No,"Employed for wages,",Yes,"Some College, No Degree","Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+341,Female,62.0,No,Unable to work?,No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No,No,.
+342,Male,27.0,No,"Employed for wages,",Yes,High School Graduate,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+343,Male,26.0,No,"Self-employed,",Yes,Associate Degree: Academic Program,"Mexican or Mexican/American,",Yes,No,No,No,No,No,No,No,.
+344,Male,35.0,No,"Out of work for more than 1 year,",No,High School Graduate,.,Yes,No,No,No,No,No,No,No,.
+345,Female,26.0,Yes,"Primarily a homemaker,",Yes,High School Graduate,"Mexican or Mexican/American,",Yes,No,No,No,No,No,No,No,.
+346,Female,44.0,No,"Primarily a homemaker,",Yes,Never Attended / Kindergarten Only,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+347,Male,22.0,No,"Employed for wages,",Yes,High School Graduate,"Puerto Rican,",No,Yes,No,No,No,No,No,No,.
+348,Male,33.0,Yes,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,Yes,No,No,No,No,No,No,.
+349,Female,48.0,Yes,Unable to work?,No,High School Graduate,.,No,Yes,No,No,No,No,No,No,.
+350,Male,23.0,No,"Employed for wages,",Yes,"Some College, No Degree","Mexican or Mexican/American,",Yes,No,No,No,No,No,No,No,.
+351,Female,35.0,No,"Out of work for more than 1 year,",Yes,"Bachelor's Degree (Example: BA, AB, BS, BBA)",Some other nationality? (SPECIFY),Yes,No,No,No,No,No,No,No,.
+352,Female,NA,No,"Primarily a student,",Yes,11th Grade,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+353,Male,26.0,No,"Self-employed,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+354,Female,31.0,No,"Employed for wages,",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No,No,.
+355,Male,51.0,Yes,"Out of work for more than 1 year,",Yes,3rd Grade,"Puerto Rican,",No,No,No,No,No,Yes,No,No,.
+356,Female,63.0,Yes,"Primarily a homemaker,",No,8th Grade,.,No,Yes,No,No,No,No,No,No,.
+357,Female,59.0,No,Unable to work?,Yes,5th Grade,"Puerto Rican,",No,No,No,No,No,Yes,No,No,.
+358,Male,35.0,No,"Employed for wages,",Yes,GED or Equivalent,"Puerto Rican,",No,No,No,No,No,Yes,No,No,.
+359,Female,28.0,No,"Employed for wages,",Yes,High School Graduate,"Puerto Rican,",No,No,No,No,No,No,Yes,No,.
+360,Female,66.0,Yes,Unable to work?,Yes,9th Grade,"Puerto Rican,",No,No,No,No,No,No,No,Yes,.
+361,Male,47.0,No,"Employed for wages,",Yes,"Some College, No Degree","Mexican or Mexican/American,",No,No,No,No,No,No,Yes,No,.
+362,Female,22.0,No,"Employed for wages,",Yes,High School Graduate,"Mexican or Mexican/American,",No,No,No,No,No,No,Yes,No,.
+363,Female,45.0,Yes,"Out of work for less than 1 year,",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No,No,.
+364,Female,71.0,Yes,"Primarily a homemaker,",Yes,High School Graduate,"Mexican or Mexican/American,",No,No,No,No,No,No,Yes,No,.
+365,Female,37.0,No,"Employed for wages,",Yes,"Master's Degree (Example: MA, MS, MENG, MED, MBA)","Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+366,Female,54.0,No,"Employed for wages,",Yes,9th Grade,"Mexican or Mexican/American,",Yes,No,No,No,No,No,No,No,.
+367,Male,32.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+368,Female,62.0,No,"Out of work for more than 1 year,",Yes,4th Grade,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+369,Male,32.0,No,"Employed for wages,",Yes,NO CODED RESPONSE APPLICABLE (SPECIFY),"Mexican or Mexican/American,",Yes,No,No,No,No,No,No,No,.
+370,Female,50.0,Yes,"Self-employed,",Yes,4th Grade,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+371,Female,39.0,No,"Primarily a homemaker,",Yes,6th Grade,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+372,Male,33.0,No,"Self-employed,",Yes,11th Grade,"Mexican or Mexican/American,",Yes,No,No,No,No,No,No,No,.
+373,Female,46.0,No,"Primarily a homemaker,",Yes,9th Grade,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+374,Male,53.0,Yes,Unable to work?,Yes,High School Graduate,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+375,Female,37.0,No,"Primarily a homemaker,",Yes,High School Graduate,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+376,Male,57.0,Yes,"Employed for wages,",Yes,6th Grade,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+377,Female,70.0,Yes,"Employed for wages,",No,High School Graduate,.,Yes,No,No,No,No,No,No,No,.
+378,Male,22.0,No,"Out of work for less than 1 year,",Yes,"Some College, No Degree","Mexican or Mexican/American,",Yes,No,No,No,No,No,No,No,.
+379,Male,64.0,Yes,Unable to work?,Yes,6th Grade,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+380,Male,32.0,No,"Self-employed,",Yes,6th Grade,"Mexican or Mexican/American,",No,No,No,No,No,No,Yes,No,.
+381,Female,38.0,No,"Employed for wages,",No,"Associate Degree: Occupational, Technical, Or Vocational Pro",.,Yes,No,No,No,No,No,No,No,.
+382,Male,32.0,No,"Employed for wages,",Yes,6th Grade,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+383,Male,NA,No,"Employed for wages,",Yes,"12th Grade, No Diploma","Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+384,Male,32.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+385,Female,20.0,No,"Out of work for less than 1 year,",Yes,GED or Equivalent,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+386,Male,39.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,Yes,No,No,No,No,No,No,.
+387,Female,41.0,No,"Employed for wages,",Yes,"12th Grade, No Diploma","Mexican or Mexican/American,",Yes,No,No,No,No,No,No,No,.
+388,Female,20.0,No,"Employed for wages,",Yes,High School Graduate,"Mexican or Mexican/American,",Yes,No,No,No,No,No,No,No,.
+389,Female,58.0,Yes,"Primarily a homemaker,",Yes,8th Grade,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+390,Female,30.0,No,"Primarily a homemaker,",Yes,9th Grade,"Mexican or Mexican/American,",Yes,No,No,No,No,No,No,No,.
+391,Male,37.0,No,"Employed for wages,",Yes,High School Graduate,"Mexican or Mexican/American,",Yes,No,No,No,No,No,No,No,.
+392,Female,32.0,No,"Employed for wages,",Yes,"Master's Degree (Example: MA, MS, MENG, MED, MBA)","Mexican or Mexican/American,",Yes,No,No,No,No,No,No,No,.
+393,Male,35.0,No,"Employed for wages,",Yes,"Bachelor's Degree (Example: BA, AB, BS, BBA)","Mexican or Mexican/American,",Yes,No,No,No,No,No,No,No,.
+394,Female,51.0,No,"Employed for wages,",Yes,"Bachelor's Degree (Example: BA, AB, BS, BBA)","Mexican or Mexican/American,",Yes,No,No,No,No,No,No,No,.
+395,Female,63.0,Yes,"Employed for wages,",No,"Some College, No Degree",.,No,Yes,No,No,No,No,No,No,.
+396,Female,63.0,Yes,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,Yes,No,No,No,No,No,No,.
+397,Female,27.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,Yes,No,No,No,No,No,No,.
+398,Female,37.0,No,"Primarily a homemaker,",Yes,11th Grade,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+399,Male,79.0,No,"Primarily retired, or",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No,No,.
+400,Male,86.0,NO CODED RESPONSE APPLICABLE (SPECIFY),"Primarily retired, or",No,High School Graduate,.,Yes,No,No,No,No,No,No,No,.
+401,Male,35.0,No,"Employed for wages,",Yes,"Associate Degree: Occupational, Technical, Or Vocational Pro","Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+402,Female,43.0,No,"Employed for wages,",Yes,6th Grade,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+403,Female,49.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No,No,.
+404,Male,35.0,No,"Employed for wages,",Yes,11th Grade,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+405,Female,49.0,No,"Primarily a homemaker,",Yes,GED or Equivalent,"Mexican or Mexican/American,",No,No,No,No,No,Yes,No,No,.
+406,Male,23.0,No,"Out of work for less than 1 year,",Yes,"12th Grade, No Diploma","Mexican or Mexican/American,",No,No,No,No,No,No,Yes,No,.
+407,Male,NA,No,"Primarily a student,",Yes,High School Graduate,"Mexican or Mexican/American,",Yes,No,No,No,No,No,No,No,.
+408,Male,56.0,No,Unable to work?,No,"12th Grade, No Diploma",.,Yes,No,No,No,No,No,No,No,.
+409,Female,49.0,No,"Primarily a homemaker,",Yes,"12th Grade, No Diploma","Mexican or Mexican/American,",No,No,No,No,No,No,Yes,No,.
+410,Female,32.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+411,Male,25.0,Yes,"Primarily a student,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No,No,.
+412,Female,28.0,No,"Primarily a student,",No,"Doctoral Degree (Example: PHD, EDD)",.,Yes,No,No,No,No,No,No,No,.
+413,Female,28.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,No,Yes,No,No,No,No,No,"Asian Indian,"
+414,Female,26.0,No,"Primarily a student,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,No,Yes,No,No,No,No,No,"Chinese,"
+415,Female,31.0,No,"Primarily a student,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No,No,.
+416,Male,22.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+417,Female,49.0,Yes,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+418,Male,25.0,No,"Primarily a student,",Yes,"Bachelor's Degree (Example: BA, AB, BS, BBA)","Ecuadorian, or",Yes,No,No,No,No,No,No,No,.
+419,Male,34.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,No,Yes,No,No,Yes,No,No,"Asian Indian,"
+420,Male,19.0,No,"Self-employed,",Yes,High School Graduate,"Puerto Rican,",Yes,No,No,No,No,No,No,No,.
+421,Female,63.0,Yes,"Primarily retired, or",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+422,Male,43.0,No,"Employed for wages,",No,"Associate Degree: Occupational, Technical, Or Vocational Pro",.,No,No,Yes,No,No,No,No,No,"Chinese,"
+423,Female,23.0,No,"Primarily a student,",No,"Some College, No Degree",.,No,No,Yes,No,No,No,No,No,"Chinese,"
+424,Female,90.0,Yes,"Primarily retired, or",No,High School Graduate,.,Yes,No,No,No,No,No,No,No,.
+425,Female,68.0,Yes,"Primarily retired, or",No,High School Graduate,.,Yes,No,No,No,No,No,No,No,.
+426,Female,84.0,Yes,"Primarily retired, or",No,High School Graduate,.,Yes,No,No,No,No,No,No,No,.
+427,Female,21.0,No,"Primarily a student,",No,"Some College, No Degree",.,No,No,Yes,No,No,No,No,No,"Chinese,"
+428,Male,31.0,No,"Employed for wages,",No,High School Graduate,.,Yes,No,No,No,No,No,No,No,.
+429,Male,23.0,No,"Employed for wages,",No,"Some College, No Degree",.,Yes,No,No,No,No,No,No,No,.
+430,Female,26.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No,No,.
+431,Female,36.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+432,Male,30.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No,No,.
+433,Male,32.0,No,"Employed for wages,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,No,No,No,No,No,No,.
+434,Female,30.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+435,Male,23.0,Yes,"Primarily a student,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+436,Male,69.0,Yes,"Self-employed,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,No,No,No,No,Yes,No,No,No,.
+437,Female,19.0,No,"Employed for wages,",No,High School Graduate,.,Yes,Yes,No,No,No,No,No,No,.
+438,Male,67.0,No,"Out of work for more than 1 year,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+439,Female,21.0,No,"Primarily a student,",No,"Some College, No Degree",.,No,No,Yes,No,No,No,No,No,"Chinese,"
+440,Male,28.0,No,"Out of work for more than 1 year,",No,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",.,Yes,No,Yes,No,No,No,No,No,"Chinese,"
+441,Female,50.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,No,Yes,No,No,No,No,No,"Chinese,"
+442,Female,50.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,No,No,Yes,No,No,No,No,No,"Chinese,"
+443,Male,39.0,No,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",.,Yes,No,No,No,No,No,No,No,.
+444,Female,38.0,No,"Employed for wages,",No,"Doctoral Degree (Example: PHD, EDD)",.,Yes,No,No,No,No,No,No,No,.
+445,Female,55.0,NA,"Employed for wages,",No,"Professional School Degree (Example: MD, DDS, DVM, JD)",No,Yes,No,No,No,No,No,No,.,NA
+446,Male,49.0,NA,"Self-employed,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",Yes,No,No,No,No,No,No,No,.,NA
+447,Male,63.0,NA,"Out of work for more than 1 year,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",Yes,No,No,No,No,No,No,No,.,NA
+448,Female,22.0,NA,"Employed for wages,",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",Yes,No,No,No,No,No,No,No,.,NA
+449,Female,26.0,NA,"Employed for wages,",Yes,"Bachelor's Degree (Example: BA, AB, BS, BBA)",No,No,No,No,No,Yes,No,No,.,NA
+450,Male,32.0,NA,"Self-employed,",Yes,High School Graduate,Yes,No,No,No,No,No,No,No,.,NA
+451,Male,65.0,NA,"Employed for wages,",Yes,High School Graduate,No,No,No,No,No,Yes,No,No,.,NA
+452,Female,78.0,NA,"Primarily retired, or",No,"Bachelor's Degree (Example: BA, AB, BS, BBA)",No,No,Yes,No,No,No,No,No,"Chinese,",NA
+453,Female,34.0,NA,"Employed for wages,",Yes,"Master's Degree (Example: MA, MS, MENG, MED, MBA)",Yes,No,No,No,No,No,No,No,.,NA
+454,Male,56.0,NA,"Employed for wages,",No,High School Graduate,Yes,No,No,No,No,No,No,No,.,NA
